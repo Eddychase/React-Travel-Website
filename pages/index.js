@@ -1,6 +1,7 @@
 
 import Banner from '../components/Banner'
 import FirstCard from '../components/FirstCard'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import LargeCard from '../components/LargeCard'
 import MediumCard from '../components/MediumCard'
@@ -45,6 +46,7 @@ export default function Home({cardData,exploreData}) {
           buttonText="Host a Home"
         />
       </main>
+      <Footer/>
 </div>
       )}
 
