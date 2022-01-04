@@ -2,6 +2,7 @@
 import Banner from '../components/Banner'
 import FirstCard from '../components/FirstCard'
 import Header from '../components/Header'
+import LargeCard from '../components/LargeCard'
 import MediumCard from '../components/MediumCard'
 import SmallCard from '../components/SmallCard'
 
@@ -37,6 +38,12 @@ export default function Home({cardData,exploreData}) {
           </div>
         </section>
       
+        <LargeCard
+          img="/pixels5.jpg"
+          title="Become a Host?"
+          description="Join our Team of amazing hosts and earn Extra Income."
+          buttonText="Host a Home"
+        />
       </main>
 </div>
       )}
