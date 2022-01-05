@@ -59,7 +59,7 @@ function Header({placeholder}) {
                     value={searchInput}
                     onChange={(e) => setSearchInput(e.target.value)}
                     className="flex-grow pl-5 bg-transparent outline-none text-sm  text-white placeholder-white"
-                    type="text" placeholder="where do you wanna go?" />
+                    type="text" placeholder={placeholder || "where do you wanna go?"} />
 
          <SearchIcon className="hidden md:inline-flex h-8 bg-red-400 text-white
                 rounded-full p-2 cursor-pointer md:mx-2" />
