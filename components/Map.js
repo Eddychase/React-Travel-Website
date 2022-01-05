@@ -1,5 +1,5 @@
-import ReactMapGL from 'react-map-gl';
 import { useState } from 'react'
+import ReactMapGL from 'react-map-gl';
 
 function Map() {
 
@@ -12,7 +12,7 @@ function Map() {
     })
     return (
         <ReactMapGL
-            mapStyle="mapbox://styles/eddychase/cky1v640x0tef14n8cfhgcpq6"
+            mapStyle="mapbox://styles/eddychase/ckuwkem820ijw17mvn9tw8hlz"
             mapboxApiAccessToken={process.env.mapbox_key}
             {...viewport}
             onViewportChange={(nextViewport) => setViewport(nextViewport)}
