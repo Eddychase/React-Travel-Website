@@ -2,7 +2,6 @@
 
 This project is a website built using React, styled-components, and React Router. It showcases different travel destinations and allows users to browse and book their trips.
 
-![Netflix Clone Screenshot](https://i.imgur.com/Z9Oo4JC.png)
 
 ## Features
 
