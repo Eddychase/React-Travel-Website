@@ -1,27 +1,35 @@
-# Next.js + Tailwind CSS Example
+# React Travel Website
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This project is a website built using React, styled-components, and React Router. It showcases different travel destinations and allows users to browse and book their trips.
 
-## Preview
+![Netflix Clone Screenshot](https://i.imgur.com/Z9Oo4JC.png)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Features
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- Browse different travel destinations
+- View details about each destination including images and descriptions
+- Book a trip by selecting travel dates and number of people
+- Responsive design for different screen sizes
 
-## Deploy your own
+## Built With
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+- React
+- styled-components
+- React Router
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Getting Started
 
-## How to use
+To get started with the project, follow these steps:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+1. Clone the repo: git clone https://github.com/Eddychase/React-Travel-Website.git
+2. Install dependencies: `npm install`
+3. Get an API key from TMDB and add it to the `.env` file in the root directory.
+4. Run the app: `npm start`
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Acknowledgments
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- This project was inspired by various travel websites.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
